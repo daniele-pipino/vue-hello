@@ -3,10 +3,14 @@ Bonus
 Aggiungere alla pagina un’immagine, la cui sorgente derivi anch'essa dai data di Vue.
  */
 
+
+Vue.config.devtools = true;
+
 const app = new Vue({
     el: '#root',
     data: {
         message: 'Hello world',
+        imageUrl: './img/avatar-cv.png'
     }
 });
 
